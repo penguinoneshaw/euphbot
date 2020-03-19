@@ -1,10 +1,10 @@
 FROM node:latest
 
-RUN mkdir -p /usr/src/bot
+RUN mkdir -p /usr/src/bot/src
 WORKDIR /usr/src/bot
 
 COPY package.json .
-COPY src/* src
+COPY ./src/* src/
 
 RUN npm install
 
