@@ -17,6 +17,18 @@ const QUOTATIONS = [
   {
     regex: /the chickens are revolting/i,
     quotation: "I TOLD YOU THEY WAS ORGANISED"
+  },
+  {
+    regex: /flugel/i,
+    quotation: "And she calls that wobbly."
+  },
+  {
+    regex: /trombone/i,
+    quotation: "Lovely bit of brass, that."
+  },
+  {
+    regex: /horn/i,
+    quotation: "Where is Clare when we need her?"
   }
 ];
 
